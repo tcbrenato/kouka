@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KOUKA — Plateforme de gestion documentaire : devis, bons de commande, factures" />
+    <title>KOUKA — Gestion Documentaire</title>
+    <style>
+      @media print {
+        .no-print { display: none !important; }
+        body { background: white !important; }
+        .main-content { padding: 0 !important; max-width: 100% !important; }
+        .form-layout > div:first-child { display: none !important; }
+        .form-layout { display: block !important; }
+        .preview-panel { position: static !important; }
+        .doc-preview { border: none !important; box-shadow: none !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
