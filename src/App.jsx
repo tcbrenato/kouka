@@ -17,7 +17,7 @@ export default function App() {
         <div className="logo" onClick={goHome}>
           <div className="logo-icon">K</div>
           <div>
-            <div className="logo-text">KOUKA</div>
+            <div className="logo-text">KOUKA'S</div>
             <div className="logo-sub">Gestion documentaire</div>
           </div>
         </div>
