@@ -60,7 +60,7 @@ export default function DocPreview({ docType, data, items, settings }) {
           <div style={s.logoRow}>
             <img src="https://i.ibb.co/QvfKJvYz/Whats-App-Image-2026-03-10-at-21-27-25.jpg"
               style={{ width: 32, height: 32, borderRadius: 6, objectFit: 'cover' }} alt="logo" />
-            <span style={s.logoName}>KOUKA</span>
+            <span style={s.logoName}>KOUKA'S</span>
           </div>
           <div style={s.companyName}>{data.sellerName || '—'}</div>
           <div style={s.companyInfo}>
